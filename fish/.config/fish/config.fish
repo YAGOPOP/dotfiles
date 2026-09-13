@@ -1,10 +1,8 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+set cashyos_fish_config "/usr/share/cachyos-fish-config/cachyos-config.fish"
 
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
+if test -f "$cashyos_fish_config"
+    source "$cashyos_fish_config"
+end
 
 function fish_greeting
     switch "$TERM_PROGRAM"
