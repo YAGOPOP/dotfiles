@@ -1,0 +1,9 @@
+{
+  "TODO": {
+    "prefix": "todo",
+    "body": [
+      "raise NotImplementedError(${1:\"TODO\"})"
+    ],
+    "description": "Raise NotImplementedError"
+  }
+}
