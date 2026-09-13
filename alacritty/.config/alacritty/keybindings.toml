@@ -1,0 +1,32 @@
+[keyboard]
+bindings = [
+    { key = 46, mods = "Control|Shift", action = "Copy" },
+    { key = 47, mods = "Control|Shift", action = "Paste" },
+    { key = "Insert", mods = "Shift", action = "PasteSelection" },
+
+    { key = 33, mods = "Control|Shift", action = "SearchForward" },
+    { key = 48, mods = "Control|Shift", action = "SearchBackward" },
+
+    { key = "F11", action = "ToggleFullscreen" },
+
+    { key = 46, mods = "Control", chars = "\u0003" }, # Ctrl+C — ETX / прервать процесс
+    { key = 50, mods = "Control", chars = "\u001a" }, # Ctrl+Z — SUB / приостановить процесс
+    { key = 24, mods = "Control", chars = "\u0018" }, # Ctrl+X — CAN
+    { key = 22, mods = "Control", chars = "\u0016" }, # Ctrl+V — SYN
+    { key = 25, mods = "Control", chars = "\u0011" }, # Ctrl+Q — XON / продолжить вывод
+    { key = 32, mods = "Control", chars = "\u0004" }, # Ctrl+D — EOT / EOF
+    { key = 45, mods = "Control", chars = "\u000c" }, # Ctrl+L — FF / очистить экран
+    { key = 43, mods = "Control", chars = "\u001c" }, # Ctrl+\ — FS / quit
+
+    { key = 11, mods = "Control", action = "ResetFontSize" },
+    { key = 13, mods = "Control", action = "IncreaseFontSize" },
+    { key = 13, mods = "Control|Shift", action = "IncreaseFontSize" },
+    { key = 12, mods = "Control", action = "DecreaseFontSize" },
+
+    { key = "PageUp", mods = "Shift", action = "ScrollPageUp" },
+    { key = "PageDown", mods = "Shift", action = "ScrollPageDown" },
+    { key = "Home", mods = "Shift", action = "ScrollToTop" },
+    { key = "End", mods = "Shift", action = "ScrollToBottom" },
+
+    { key = "Space", mods = "Control|Shift", action = "ToggleViMode" },
+]
