@@ -19,4 +19,6 @@ end
 
 if status is-interactive
     alias ls "eza -l"
+
+    bind ctrl-я undo
 end
