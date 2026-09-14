@@ -1,6 +1,6 @@
 [keyboard]
 bindings = [
-	{ key = "V", mods = "Control", action = "None" },
+	# { key = "V", mods = "Control", action = "None" },
 	{ key = "V", mods = "Control|Shift", action = "None" },
 
     { key = 46, mods = "Control|Shift", action = "Copy" },
@@ -20,6 +20,7 @@ bindings = [
     { key = 32, mods = "Control", chars = "\u0004" }, # Ctrl+D — EOT / EOF
     { key = 38, mods = "Control", chars = "\u000c" }, # Ctrl+L — FF / очистить экран
     { key = 43, mods = "Control", chars = "\u001c" }, # Ctrl+\ — FS / quit
+    { key = 17, mods = "Control", chars = "\u0017" }, # Ctrl+W — удалить предыдущее слово
 
     { key = 11, mods = "Control", action = "ResetFontSize" },
     { key = 13, mods = "Control", action = "IncreaseFontSize" },
