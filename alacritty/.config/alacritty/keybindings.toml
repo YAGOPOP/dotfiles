@@ -14,7 +14,7 @@ bindings = [
 
     { key = 46, mods = "Control", chars = "\u0003" }, # Ctrl+C — ETX / прервать процесс
     { key = 50, mods = "Control", chars = "\u001a" }, # Ctrl+Z — SUB / приостановить процесс
-    { key = 24, mods = "Control", chars = "\u0018" }, # Ctrl+X — CAN
+    { key = 45, mods = "Control", chars = "\u0018" }, # Ctrl+X — CAN
     { key = 22, mods = "Control", chars = "\u0016" }, # Ctrl+V — SYN
     { key = 25, mods = "Control", chars = "\u0011" }, # Ctrl+Q — XON / продолжить вывод
     { key = 32, mods = "Control", chars = "\u0004" }, # Ctrl+D — EOT / EOF
