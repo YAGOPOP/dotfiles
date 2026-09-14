@@ -18,7 +18,7 @@ bindings = [
     { key = 22, mods = "Control", chars = "\u0016" }, # Ctrl+V — SYN
     { key = 25, mods = "Control", chars = "\u0011" }, # Ctrl+Q — XON / продолжить вывод
     { key = 32, mods = "Control", chars = "\u0004" }, # Ctrl+D — EOT / EOF
-    { key = 45, mods = "Control", chars = "\u000c" }, # Ctrl+L — FF / очистить экран
+    { key = 38, mods = "Control", chars = "\u000c" }, # Ctrl+L — FF / очистить экран
     { key = 43, mods = "Control", chars = "\u001c" }, # Ctrl+\ — FS / quit
 
     { key = 11, mods = "Control", action = "ResetFontSize" },
