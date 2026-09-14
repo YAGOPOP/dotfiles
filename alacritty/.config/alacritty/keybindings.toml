@@ -1,6 +1,5 @@
 [keyboard]
 bindings = [
-	# { key = "V", mods = "Control", action = "None" },
 	{ key = "V", mods = "Control|Shift", action = "None" },
 
     { key = 46, mods = "Control|Shift", action = "Copy" },
